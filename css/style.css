@@ -17,9 +17,18 @@ body {
   background-color: grey;
 }
 
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 15px;
+/* popular-products */
+
+.popular-products__list {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+/* advantages */
+
+.advantages__item {
+  padding: 16px;
+  border: 1px solid #ddd;
 }
 
